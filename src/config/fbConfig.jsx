@@ -1,5 +1,4 @@
-import firebase from "firebase/app";
-import "firebase/firestore";
+import firebase from "firebase";
 var config = {
   apiKey: "AIzaSyCbixkqPpE8zrHrJeJtpFiv3l8h8FhRqv8",
   authDomain: "phonedirectory-cf402.firebaseapp.com",
@@ -10,6 +9,5 @@ var config = {
 };
 firebase.initializeApp(config);
 
-firebase.firestore().settings({ timestampsInSnapshots: true });
-
-export default firebase;
+var fire = firebase.database();
+export { fire };
