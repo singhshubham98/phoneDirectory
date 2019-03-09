@@ -1,9 +1,5 @@
-import React, {
-  Component
-} from "react";
-import {
-  fire
-} from "./config/fbConfig";
+import React, { Component } from "react";
+import { fire } from "./config/fbConfig";
 import "./App.css";
 
 class App extends Component {
@@ -43,56 +39,40 @@ class App extends Component {
   };
 
   render() {
-    return ( <
-      div className = "container" >
-      <
-      h1 > Phone Directory < /h1> <
-      form onSubmit = {
-        this.handleSubmit
-      } >
-      <
-      div className = "form-group"
-      id = "spc-1" >
-      <
-      div className = "input-1" >
-      <
-      i class = "fa fa-user" / >
-      <
-      input type = "text"
-      className = "form-control"
-      id = "username"
-      placeholder = "Enter name" /
-      >
-      <
-      /div> < /
-      div > <
-      div className = "form-group" >
-      <
-      div className = "input-1" >
-      <
-      i class = "fa fa-phone" /
-      >
-      <
-      input type = "tel"
-      className = "form-control"
-      id = "inputPhone"
-      placeholder = "Enter phone number" /
-      >
-      <
-      /div> < /
-      div > <
-      button type = "submit"
-      className = "btn btn-primary" >
-      Submit <
-      /button> < /
-      form > <
-      div >
-      <
-      p className = "para"
-      ref = "para" / >
-      <
-      /div> < /
-      div >
+    return (
+      <div className="container">
+        <h1> Phone Directory </h1>
+        <form onSubmit={this.handleSubmit}>
+          <div className="form-group" id="spc-1">
+            <div className="input-1">
+              <i className="fa fa-user" />
+              <input
+                type="text"
+                className="form-control"
+                ref="username"
+                placeholder="Enter name"
+              />
+            </div>
+          </div>
+          <div className="form-group">
+            <div className="input-1">
+              <i className="fa fa-phone" />
+              <input
+                type="tel"
+                className="form-control"
+                ref="phone_number"
+                placeholder="Enter phone number"
+              />
+            </div>
+          </div>
+          <button type="submit" className="btn btn-primary">
+            Submit{" "}
+          </button>
+        </form>
+        <div>
+          <p className="para" ref="para" />
+        </div>
+      </div>
     );
   }
 }
