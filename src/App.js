@@ -34,6 +34,9 @@ class App extends Component {
         username: this.refs.username.value,
         phone_number: this.refs.phone_number.value
       });
+
+      this.refs.username.value = "";
+      this.refs.phone_number.value = "";
     }
   };
 
