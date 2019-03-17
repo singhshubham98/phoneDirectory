@@ -132,10 +132,9 @@ input:focus::-webkit-input-placeholder {
   padding: 2em 2em;
   padding-top: 1em;
   border: 0;
-  width: 35em;
-  display: block;
+  width: 50em;
+  /* display: block; */
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-  overflow-x: auto;
 }
 
 .gif {
@@ -144,6 +143,7 @@ input:focus::-webkit-input-placeholder {
 }
 
 .table {
+  overflow-x: auto;
   border-collapse: collapse;
   width: 100%;
 }
@@ -181,6 +181,9 @@ th {
   }
   input {
     width: 92%;
+  }
+  .list {
+    width: 70%;
   }
 }
 

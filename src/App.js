@@ -18,7 +18,6 @@ class App extends Component {
     this.setState({ loading: true });
     this.itemsRef.on("value", data => {
       var subscriber = data.val() || {};
-      console.log(subscriber);
       var keys = Object.keys(subscriber);
       const subscribers = keys.map(key => ({ key, ...subscriber[key] }));
       this.setState({ subscribers, loading: false });
