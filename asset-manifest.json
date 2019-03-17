@@ -1,0 +1,16 @@
+{
+  "main.css": "/phoneDirectory/static/css/main.537a64d0.chunk.css",
+  "main.js": "/phoneDirectory/static/js/main.c3d0a9c7.chunk.js",
+  "main.js.map": "/phoneDirectory/static/js/main.c3d0a9c7.chunk.js.map",
+  "runtime~main.js": "/phoneDirectory/static/js/runtime~main.6ef97947.js",
+  "runtime~main.js.map": "/phoneDirectory/static/js/runtime~main.6ef97947.js.map",
+  "static/js/2.049bbbb2.chunk.js": "/phoneDirectory/static/js/2.049bbbb2.chunk.js",
+  "static/js/2.049bbbb2.chunk.js.map": "/phoneDirectory/static/js/2.049bbbb2.chunk.js.map",
+  "index.html": "/phoneDirectory/index.html",
+  "precache-manifest.1cb7d3ed167db383056fd4475d4a590d.js": "/phoneDirectory/precache-manifest.1cb7d3ed167db383056fd4475d4a590d.js",
+  "service-worker.js": "/phoneDirectory/service-worker.js",
+  "static/css/main.537a64d0.chunk.css.map": "/phoneDirectory/static/css/main.537a64d0.chunk.css.map",
+  "static/media/index.css": "/phoneDirectory/static/media/GoogleSans-Regular.b5c77a6a.ttf",
+  "static/media/profile.png": "/phoneDirectory/static/media/profile.a1d40c38.png",
+  "static/media/ring2.gif": "/phoneDirectory/static/media/ring2.a697fcc4.gif"
+}
